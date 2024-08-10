@@ -1,4 +1,5 @@
 import 'package:app_movil_giuseppe/router/routes.dart';
+import 'package:app_movil_giuseppe/utils/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,12 +14,10 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Giuseppe',
       debugShowCheckedModeBanner: false,
+      theme: AppTheme.generalTheme,
       routes: routes,
       initialRoute: 'login_page',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
     );
   }
+
 }
