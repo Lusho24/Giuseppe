@@ -25,6 +25,8 @@ class AppTheme {
             color: AppColors.textColor, fontWeight: FontWeight.bold),
         titleSmall: TextStyle( // *Para texto de botones
             color: AppColors.textColor,fontSize: 17.0,  fontWeight: FontWeight.bold ),
+        bodyMedium: TextStyle( // *Para texto de botones
+            color: AppColors.textColor),
         bodySmall: TextStyle( // *Para descripciones de las cards
             color: AppColors.textColor,fontWeight: FontWeight.w500,fontSize: 13.0),
       ),
@@ -40,6 +42,7 @@ class AppTheme {
           overlayColor: WidgetStateProperty.all(AppColors.primaryVariantColor),
         )
       ),
+
     );
   }
 }
