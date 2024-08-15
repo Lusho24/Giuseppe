@@ -77,7 +77,7 @@ class _SignInForm extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  print('BOTON APLASTADO');
+                  Navigator.pushNamed(context, 'tabs_page');
                 },
                 child: const Text('Ingresar'),
               ),
