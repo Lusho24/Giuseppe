@@ -56,10 +56,10 @@ class _SignInForm extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Nombre', style: Theme.of(context).textTheme.bodyMedium),
+                Text('Usuario', style: Theme.of(context).textTheme.bodyMedium),
                 const CustomTextFormField(
-                    formFieldType: FormFieldType.name,
-                    hintText: 'Nombre de usaurio'),
+                    formFieldType: FormFieldType.identity_card,
+                    hintText: '1705380561'),
               ],
             ),
             const SizedBox(height: 20.0),
